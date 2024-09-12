@@ -10,6 +10,7 @@ public class RoadMarking {
     private List<GameObject> roadMarking = new ArrayList<>();
 
     public RoadMarking() {
+        System.out.println("sfdsds");
         for (int i = -4; i <= RacerGame.HEIGHT + 4; i += 8) {
             roadMarking.add(new GameObject(RacerGame.CENTER_X - 9, i, ShapeMatrix.ROAD_MARKING));
             roadMarking.add(new GameObject(RacerGame.CENTER_X + 9, i, ShapeMatrix.ROAD_MARKING));
